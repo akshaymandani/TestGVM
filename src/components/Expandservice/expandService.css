@@ -1,0 +1,38 @@
+.service {
+    margin-top: 80px;
+}
+
+.service-main {
+    margin: auto;
+    margin-top: 80px;
+    margin-top: 50px;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-item img {
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.service-item p {
+    color: #0F172A;
+    font-size: 20px;
+    text-align: center;
+}
+
+.service-button {
+    margin: auto;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 20px;
+    background-color: #BE123C;
+    border: 2px solid #BE123C;
+    border-radius: 5px;
+    padding: 16px 32px;
+}

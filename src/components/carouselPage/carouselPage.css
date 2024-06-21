@@ -1,0 +1,55 @@
+.carousel-page {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f3e50;
+    color: white;
+    /* text-align: center; */
+    padding: 20px 80px;
+}
+
+.hero-section {
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.explore-button {
+    /* background-color: #4CAF50; */
+    border: 2px solid #fff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.carousel-item {
+    margin: 0 10px;
+    opacity: 0.5;
+}
+
+.carousel-item.active {
+    opacity: 1;
+}
+
+.carousel-item img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.carousel-item span {
+    display: block;
+    margin-top: 5px;
+}

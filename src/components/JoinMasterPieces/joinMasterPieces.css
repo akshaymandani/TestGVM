@@ -1,0 +1,43 @@
+.jm {
+    background-color: #0F172A;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.jm-left-content {
+    width: 45%;
+}
+
+.jmlc-top h1 {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 79.2px;
+    font-family: "roboto";
+}
+
+.jmlc-bottom {
+    gap: 20px;
+}
+
+.jmlcb-top {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 28px;
+    cursor: pointer;
+}
+
+.jm-right-content {
+    width: 45%;
+}

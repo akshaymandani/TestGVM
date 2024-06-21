@@ -1,0 +1,40 @@
+.art-events-page {
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.events {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.event-card {
+    border-radius: 8px;
+    text-align: left;
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.event-card h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.event-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.art-events-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

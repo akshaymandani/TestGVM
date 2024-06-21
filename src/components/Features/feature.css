@@ -1,0 +1,45 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.feature-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.feature-header a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.feature-categories {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.feature-category {
+    position: relative;
+    width: 18%;
+}
+
+.feature-category img {
+    width: 100%;
+    height: auto;
+}
+
+.feature-category-info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px;
+}
