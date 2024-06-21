@@ -1,0 +1,29 @@
+.Carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 80px 0px;
+    color: #fff;
+    position: relative;
+}
+
+.Carousel-item {
+    padding: 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.product-image {
+    width: 100%;
+}
